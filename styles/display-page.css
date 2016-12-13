@@ -1,0 +1,41 @@
+.container {
+	width: 800px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 0px;
+}
+
+.topBox {
+	border: 1px solid black;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+}
+
+.btmBox {
+	border: 1px solid black;
+	width: 33.3%;
+	height: 300px;
+	display: inline-block;
+}
+
+.topBoxGreen {
+	background-color: green;
+}
+
+.topBoxBlue {
+	background-color: blue;
+}
+
+.btmBoxGrey {
+	background-color: grey;
+}
+
+.btmBoxBlack {
+	background-color: black;
+}
+
+.btmBoxYellow {
+	background-color: yellow;
+}
