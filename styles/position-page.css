@@ -56,9 +56,12 @@ a:active {
   color: black;
 }
 
-main {
-	background-image: none;
-	text-align: center; 
+html {
+	background: url(http://www.hdwallpapery.com/static/images/space-wallpapers-hd-wallpaper-desktop-landscape-photo-hd-wallpapers_hunWbYG.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .borderBox {
