@@ -56,11 +56,18 @@ a:active {
   color: black;
 }
 
+main {
+	background-image: none;
+	text-align: center; 
+}
+
 .borderBox {
 	position: fixed;
 	border: 10px green dotted;
 	width: 600px;
 	height: 300px;
+	right: 0px;
+	left: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 200px;
