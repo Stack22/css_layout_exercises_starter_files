@@ -1,3 +1,4 @@
+
 nav {
 	background: grey;
 	position: fixed;
@@ -6,15 +7,6 @@ nav {
 	/*font-size: 0px;*/
 }
 
-.logo {
-	position: relative;
-	width: 80px;
-	left: 60px;
-	top: 10px;
-	/*bottom: 20px;*/
-	border-radius: 50%;
-	border: 1px solid black;
-}
 
 ul {
 	position: absolute;
@@ -27,6 +19,17 @@ li {
 	/*position: relative;*/
 	display: inline;
 }
+
+.logo {
+	position: absolute;
+	width: 80px;
+	left: 60px;
+	top: 10px;
+	/*bottom: 20px;*/
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
 li::after {
 	content: " | ";
 }
@@ -54,13 +57,14 @@ a:active {
 }
 
 .borderBox {
-	position: relative;
+	position: fixed;
+	border: 10px green dotted;
 	width: 600px;
 	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 200px;
-	border: 10px green dotted;
+	
 }
 
 #spacecat {
