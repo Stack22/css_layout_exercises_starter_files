@@ -79,12 +79,14 @@ html {
 
 #spacecat {
 	position: absolute;
+	width: 150px;
 	left: -50px;
-	top: -50px;
+	top: -60px;
 }
 
 #spacedog {
 	position: absolute;
+	width: 150px;
 	right: -50px;
 	bottom: -50px;
 }
