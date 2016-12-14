@@ -1,1 +1,76 @@
+nav {
+	background: grey;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	/*font-size: 0px;*/
+}
 
+.logo {
+	position: relative;
+	width: 80px;
+	left: 60px;
+	top: 10px;
+	/*bottom: 20px;*/
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+ul {
+	position: absolute;
+	list-style-type: none;
+	left: 150px;
+	top: 25px;
+}
+
+li {
+	/*position: relative;*/
+	display: inline;
+}
+li::after {
+	content: " | ";
+}
+
+a:link {
+  /* unvisited link */
+  color: purple;
+}
+
+a:visited {
+  /* visited link */
+  color: purple;
+}
+
+a:hover {
+  /* mouse over link */
+  font-style: 
+}
+
+a:active {
+  /* selected link (i.e., you've clicked
+    but not released on the link)
+ */
+  color: black;
+}
+
+.borderBox {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	border: 10px green dotted;
+}
+
+#spacecat {
+	position: absolute;
+	left: -50px;
+	top: -50px;
+}
+
+#spacedog {
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+}
